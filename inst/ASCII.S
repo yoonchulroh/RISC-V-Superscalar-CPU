@@ -1,0 +1,146 @@
+# ASCII character constants
+# Control characters (0-31)
+.equ NUL, 0
+.equ SOH, 1
+.equ STX, 2
+.equ ETX, 3
+.equ EOT, 4
+.equ ENQ, 5
+.equ ACK, 6
+.equ BEL, 7
+.equ BS, 8
+.equ HT, 9
+.equ LF, 10
+.equ VT, 11
+.equ FF, 12
+.equ CR, 13
+.equ SO, 14
+.equ SI, 15
+.equ DLE, 16
+.equ DC1, 17
+.equ DC2, 18
+.equ DC3, 19
+.equ DC4, 20
+.equ NAK, 21
+.equ SYN, 22
+.equ ETB, 23
+.equ CAN, 24
+.equ EM, 25
+.equ SUB, 26
+.equ ESC, 27
+.equ FS, 28
+.equ GS, 29
+.equ RS, 30
+.equ US, 31
+
+# Printable characters (32-126)
+.equ SPACE, 32
+.equ EXCLAMATION, 33
+.equ DOUBLE_QUOTE, 34
+.equ HASH, 35
+.equ DOLLAR, 36
+.equ PERCENT, 37
+.equ AMPERSAND, 38
+.equ SINGLE_QUOTE, 39
+.equ LEFT_PAREN, 40
+.equ RIGHT_PAREN, 41
+.equ ASTERISK, 42
+.equ PLUS, 43
+.equ COMMA, 44
+.equ MINUS, 45
+.equ PERIOD, 46
+.equ SLASH, 47
+
+# Digits (48-57)
+.equ ZERO, 48
+.equ ONE, 49
+.equ TWO, 50
+.equ THREE, 51
+.equ FOUR, 52
+.equ FIVE, 53
+.equ SIX, 54
+.equ SEVEN, 55
+.equ EIGHT, 56
+.equ NINE, 57
+
+# Symbols (58-64)
+.equ COLON, 58
+.equ SEMICOLON, 59
+.equ LESS_THAN, 60
+.equ EQUALS, 61
+.equ GREATER_THAN, 62
+.equ QUESTION, 63
+.equ AT, 64
+
+# Uppercase letters (65-90)
+.equ A, 65
+.equ B, 66
+.equ C, 67
+.equ D, 68
+.equ E, 69
+.equ F, 70
+.equ G, 71
+.equ H, 72
+.equ I, 73
+.equ J, 74
+.equ K, 75
+.equ L, 76
+.equ M, 77
+.equ N, 78
+.equ O, 79
+.equ P, 80
+.equ Q, 81
+.equ R, 82
+.equ S, 83
+.equ T, 84
+.equ U, 85
+.equ V, 86
+.equ W, 87
+.equ X, 88
+.equ Y, 89
+.equ Z, 90
+
+# Symbols (91-96)
+.equ LEFT_BRACKET, 91
+.equ BACKSLASH, 92
+.equ RIGHT_BRACKET, 93
+.equ CARET, 94
+.equ UNDERSCORE, 95
+.equ BACKTICK, 96
+
+# Lowercase letters (97-122)
+.equ a, 97
+.equ b, 98
+.equ c, 99
+.equ d, 100
+.equ e, 101
+.equ f, 102
+.equ g, 103
+.equ h, 104
+.equ i, 105
+.equ j, 106
+.equ k, 107
+.equ l, 108
+.equ m, 109
+.equ n, 110
+.equ o, 111
+.equ p, 112
+.equ q, 113
+.equ r, 114
+.equ s, 115
+.equ t, 116
+.equ u, 117
+.equ v, 118
+.equ w, 119
+.equ x, 120
+.equ y, 121
+.equ z, 122
+
+# Symbols (123-126)
+.equ LEFT_BRACE, 123
+.equ PIPE, 124
+.equ RIGHT_BRACE, 125
+.equ TILDE, 126
+
+# Delete (127)
+.equ DEL, 127
